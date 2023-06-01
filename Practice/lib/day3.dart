@@ -9,7 +9,7 @@ void main() {
 
   doSequence(log);
 
-  log.forEach((e)=>print(e));
+  log.forEach(print);
 }
 
 void doSequence(List<int> log) {
@@ -36,4 +36,6 @@ Stream delayedStream(Iterable iterable) async* {
     yield i;
   }
 }
+
+
 
