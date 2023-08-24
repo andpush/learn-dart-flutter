@@ -15,7 +15,7 @@ void main() {
 }
 
 class Vehicle with PowerAggregate {
-  double point = 0;
+  double point;
   double mileage = 0;
   int _color = 0;
 
